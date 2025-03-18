@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgotpassword</title>
+</head>
+<style>
+   
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-image: url('https://media.istockphoto.com/id/1059772462/photo/spices-and-herbs-on-a-wooden-board-pepper-salt-paprika-basil-turmeric-on-a-black-wooden.jpg?s=612x612&w=0&k=20&c=bUwVxuHMMfYIfOgJ6O3S1IRSZBDtzt3sbHdT6ywdRQM='); /* Add a restaurant image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Login Container */
+.login-container {
+  background-color: rgba(0, 0, 0, 0.671);
+  color: white;
+  padding: 40px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+h2{color: #ff6347;
+    margin-bottom: 10px;
+    
+
+}
+p {
+  margin-bottom: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label {
+  text-align: left;
+  margin-bottom: 8px;
+}
+input {
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: none;
+  /* background-color: #333; */
+  background-color: #fff;
+  
+}
+.forgot-password{
+    text-align: right;
+}
+button {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button:hover {
+  background-color: #e5533d;
+}
+/* Signup section */
+/* .Sign-up{
+    margin-top: 10px;
+} */
+.Sign-up a {
+  color: #ff6347;
+  text-decoration: none;
+}
+.Sign-up a:hover {
+  text-decoration: underline;
+}
+
+</style>
+<body>
+   <div class="login-container">
+    <h2>Welcome Back!</h2>
+    <P>login Continue</P>
+
+    <form>
+        <label for="username">Username</label>
+        <input type="text" name="Username" placeholder="Enter  your name" required>
+    
+        <label for="password">Password</label>
+        <input type="text" name="Password" placeholder="Enter  your password" required>
+        <p class="forgot-password"><a href="forgotpassword.html">Forgot password</a></p>
+        <button type="Submit">Login</button>
+       
+ 
+        <p class="or"> or</p>
+        <p class="Sign-up"> Do'nt have an account? <a href="Signup.html">Sign up</a></p>
+    </form>
+   </div> 
+</body> 
+</html>
